@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://github.com/kisonho/torchmanager.git
-  summary: PyTorch Training Manager v1.3.2
+  summary: PyTorch Training Manager v1.3.3
   license: BSD-2-Clause
   license_file: LICENSE
 
