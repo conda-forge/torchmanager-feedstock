@@ -7,7 +7,7 @@ Home: https://github.com/kisonho/torchmanager.git
 
 Package license: BSD-2-Clause
 
-Summary: PyTorch Training Manager v1.2.5
+Summary: PyTorch Training Manager v1.3.3
 
 Current build status
 ====================
