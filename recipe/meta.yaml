@@ -1,16 +1,16 @@
 {% set name = "torchmanager" %}
-{% set version = "1.3.3" %}
+{% set version = "1.3.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  path: dist/torchmanager-1.3.3.tar.gz
+  path: dist/torchmanager-1.3.4.tar.gz
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install {{ SRC_DIR }}/torchmanager-1.3.3.tar.gz -vv --no-deps --no-build-isolation
+  script: {{ PYTHON }} -m pip install {{ SRC_DIR }}/torchmanager-1.3.4.tar.gz -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/kisonho/torchmanager.git
-  summary: PyTorch Training Manager v1.3.3
+  summary: PyTorch Training Manager v1.3.4
   license: BSD-2-Clause
   license_file: LICENSE
 
